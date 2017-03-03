@@ -44,7 +44,6 @@ class MeldApp(Gtk.Application):
     def __init__(self):
         Gtk.Application.__init__(self)
         self.set_flags(Gio.ApplicationFlags.HANDLES_COMMAND_LINE)
-        self.set_application_id("org.gnome.meld")
         GLib.set_application_name("Meld")
         Gtk.Window.set_default_icon_name("meld")
 
